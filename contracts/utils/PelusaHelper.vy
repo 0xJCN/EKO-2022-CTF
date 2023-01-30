@@ -29,4 +29,3 @@ def _calculate_salt(bytecode_hash: bytes32) -> bytes32:
             break
         salt += 1
     return convert(salt, bytes32)
-
