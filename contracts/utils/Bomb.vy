@@ -14,4 +14,3 @@ def __default__():
     msg_data: Bytes[32] = slice(msg.data, 0, 32)
     addr: address = extract32(msg_data, 0, output_type=address)
     selfdestruct(addr)
-
