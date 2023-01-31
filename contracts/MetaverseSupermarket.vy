@@ -40,8 +40,12 @@ def attack():
         }
     )
     _signature: Signature = Signature(
-        { v: 27, r: empty(bytes32), s: empty(bytes32),
+        { 
+            v: 27, 
+            r: empty(bytes32), 
+            s: empty(bytes32),
         }
+
     )
     for token_id in range(10):
         self.infla_store.buyUsingOracle(
