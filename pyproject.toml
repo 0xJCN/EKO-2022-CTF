@@ -2,7 +2,7 @@
 name = "EKO 2022 CTF"
 version = "0.1.0"
 description = "EKO 2022 CTF solutions with Ape and Vyper"
-authors = "0xJCN"
+authors = ["0xJCN"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
